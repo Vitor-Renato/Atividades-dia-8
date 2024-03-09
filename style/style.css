@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.grid {
+    display: grid;
+
+}
+.item {
+    text-align: center;
+}
+.size-header { 
+    background-color: brown;
+    height: 10vh;
+    width: 100vw;
+}
+.sizer-sidebar {
+    background-color: chocolate;
+    height: 90vh;
+    width: 10vw;
+}
+.size-resto {
+    background-color: darkgoldenrod;
+    height: 90vh;
+    width: 90vw;
+
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.header {
+    grid-area: header;
+}
+.context-geral {
+    grid-area: context-geral;
+}
+.grid-template-areas {
+    grid-template-areas:
+        "header header header"
+        "sideba context-geral context-geral"
+        "sidebar context-geral context-geral"
+    ;
+}
