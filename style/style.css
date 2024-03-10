@@ -2,44 +2,178 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: darkgrey
+}
+
+.div-central {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40rem !important;
+    width: 60rem !important;
+    border-radius: 50px;
+    border: 5px solid orange;
 
 }
-.grid {
-    display: grid;
 
-}
-.item {
-    text-align: center;
-}
-.size-header { 
-    background-color: brown;
-    height: 10vh;
+.container {
+    height: 100vh;
     width: 100vw;
-}
-.sizer-sidebar {
-    background-color: chocolate;
-    height: 90vh;
-    width: 10vw;
-}
-.size-resto {
-    background-color: darkgoldenrod;
-    height: 90vh;
-    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
 
 }
-.sidebar {
-    grid-area: sidebar;
+
+.raddius {
+    border-radius: 36px;
+
 }
-.header {
-    grid-area: header;
+
+.LadoDireito {
+    background-color: white;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.context-geral {
-    grid-area: context-geral;
+
+.div-Email-and-password {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 85px 0 40px 0;
 }
-.grid-template-areas {
-    grid-template-areas:
-        "header header header"
-        "sideba context-geral context-geral"
-        "sidebar context-geral context-geral"
-    ;
+
+.div-Email-and-password input {
+    text-align: center;
+    border-radius: 8px;
+    width: 20rem;
+    height: 3.5rem;
+    margin: 20px 0 20px 0;
+}
+
+.btn {
+    width: 20rem;
+    height: 3.5rem;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn button {
+    height: 80px;
+    border-radius: 25px;
+    background-color: black;
+    border: none;
+
+}
+
+.esqueceu-senha {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    padding: 0 3rem 0 0;
+    margin: 0 0 25px 0;
+}
+
+.esqueceu-senha a {
+    text-decoration: none;
+}
+
+.barrasGeral {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0.5;
+    height: 30rem;
+    width: 100%;
+    justify-content: center;
+
+}
+
+.espaco {
+    margin: 0 4px 0 4px;
+}
+
+.barras {
+    width: 220px;
+    height: 1px;
+    border: 1px solid;
+    color: darkgray;
+}
+
+
+.alinha-logins {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100rem;
+    align-items: center;
+    justify-content: normal;
+    margin-top: none;
+}
+
+.img-login {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    height: 25%;
+    border: 1px solid black;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 0 30px 0;
+}
+
+.img-login img {
+    width: 24px;
+    height: 24px;
+
+}
+
+.img-login p {
+    margin: 0 80px 0 0;
+
+}
+
+.div-text-the-registe h2 {
+    font-size: 60px;
+
+
+}
+
+.div-text-the-registe p {
+
+    font-size: 30PX;
+
+}
+
+.div-text-the-registe {
+    width: 50%;
+    height: 30%;
+    margin: 30px 0 10px 0px;
+
+}
+
+.div-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.ladoEsquerdo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 40%;
+    background-color: white;
+
 }
